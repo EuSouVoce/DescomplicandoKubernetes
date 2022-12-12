@@ -779,7 +779,7 @@ nf_conntrack_ipv4
 overlay
 ```
 
-Vamos habilitar o repasse de pacotes e fazer com que o *iptables* gerencie os pacotes que estão trafegando pelas *brigdes*. Para isso vamos utilizar *systcl* para parametrizar o kernel.
+Vamos habilitar o repasse de pacotes e fazer com que o *iptables* gerencie os pacotes que estão trafegando pelas *bridges*. Para isso vamos utilizar *systcl* para parametrizar o kernel.
 
 ```bash
 vim /etc/sysctl.d/k8s.conf 
